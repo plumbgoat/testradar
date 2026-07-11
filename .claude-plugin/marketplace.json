@@ -1,0 +1,14 @@
+{
+  "name": "testradar-marketplace",
+  "description": "Home of testradar — finds the code you changed that has no test, then writes the missing tests.",
+  "owner": {
+    "name": "plumbgoat"
+  },
+  "plugins": [
+    {
+      "name": "testradar",
+      "source": "./",
+      "description": "Find untested code you just changed and generate the missing tests in your project's own framework and style."
+    }
+  ]
+}

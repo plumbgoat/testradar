@@ -1,0 +1,16 @@
+{
+  "name": "testradar",
+  "description": "Find the code you changed that has no test covering it — then write the missing tests. Focuses on risk: recently changed functions with no test, and untested branches (error paths, edge cases) inside functions that look covered. Detects your existing test framework and matches its style. Shows the gaps first, writes tests only for what you approve, and runs them to confirm they pass.",
+  "version": "0.1.0",
+  "author": {
+    "name": "plumbgoat"
+  },
+  "keywords": [
+    "testing",
+    "test-coverage",
+    "unit-tests",
+    "test-generation",
+    "quality",
+    "developer-tools"
+  ]
+}
