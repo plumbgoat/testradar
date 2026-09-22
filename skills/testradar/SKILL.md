@@ -1,6 +1,7 @@
 ---
 name: testradar
-description: Find code that has no test and write the missing tests. Use when the user asks "what's untested", "find test gaps", "what needs tests", "write tests for my changes", "am I missing test coverage", or invokes /testradar. Prioritizes recently-changed untested functions and untested branches, detects the project's own test framework and style, shows gaps before writing, and runs the new tests to confirm they pass.
+description: Find code that has no test and write the missing tests. Use when the user asks "what's untested", "find test gaps", "what needs tests", "write tests for my changes", "am I missing test coverage", or invokes /testradar:testradar. Prioritizes recently-changed untested functions and untested branches, detects the project's own test framework and style, shows gaps before writing, and runs the new tests to confirm they pass.
+argument-hint: "[optional scope, e.g. a file, module, or directory]"
 ---
 
 # Test Gap Finder + Writer

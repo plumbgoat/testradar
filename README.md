@@ -4,7 +4,7 @@ Find the code you just changed that has **no test** — then write the
 missing tests, in your project's own framework and style.
 
 ```
-/testradar
+/testradar:testradar
 ```
 
 **Who it's for:** any developer who ships changes and isn't sure what
@@ -50,8 +50,8 @@ they left untested — especially before opening a PR.
 ## Use
 
 ```
-/testradar                     # what did I change that isn't tested?
-/testradar the whole payments module
+/testradar:testradar                     # what did I change that isn't tested?
+/testradar:testradar the whole payments module
 ```
 
 or just ask: *"what did I change that isn't tested — and write the tests."*
